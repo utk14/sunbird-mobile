@@ -1,0 +1,1000 @@
+ 1014  /sbin/ldconfig /usr/local/pgsql/lib
+ 1015  sudo /sbin/ldconfig /usr/local/pgsql/lib
+ 1016  psql
+ 1017  LS -A
+ 1018  ls -a
+ 1019  cd /etc/
+ 1020  ls
+ 1021  cd profile.d/
+ 1022  ls
+ 1023  cd 
+ 1024  ls -a
+ 1025  code .
+ 1026  subl .
+ 1027  psql
+ 1028  sudo su postgres
+ 1029  psql
+ 1030  ctc
+ 1031  cd
+ 1032  ls /etc/local/
+ 1033  cd
+ 1034  ls /etc/local
+ 1035  ls /etc/local/
+ 1036  ls /etc/
+ 1037  cd Documents/
+ 1038  ls
+ 1039  mkdir build_dir && cd build_dir
+ 1040  ls
+ 1041  Leaving directory '/home/kapoor/Downloads/postgresql-9.5.14/src/backend'
+ 1042  /bin/mkdir -p '/usr/local/pgsql/lib'
+ 1043  sudo apt-get install libssl-dev
+ 1044  ls
+ 1045  cd
+ 1046  ls /usr/local
+ 1047  ls /usr/local/pgsql/
+ 1048  cat .bash_profile 
+ 1049  subl .bash_profile 
+ 1050  psql
+ 1051  sudo su postgres
+ 1052  psql
+ 1053  sudo apt install postgresql-client-common
+ 1054  psql
+ 1055  sudo apt install postgresql-client
+ 1056  psql
+ 1057  sudo su - postgres
+ 1058  export LD_LIBRARY_PATH=$PGXZ_HOME/lib:${LD_LIBRARY_PATH}
+ 1059  echo LD_LIBRARY_PATH
+ 1060  echo ${LD_LIBRARY_PATH}
+ 1061  PSQL
+ 1062  psql
+ 1063  ls /usr/local/
+ 1064  ls /usr/local/pgsql/
+ 1065  ls /usr/local/pgsql/lib/
+ 1066  cd /usr/local/pgsql/lib/
+ 1067  ls
+ 1068  subl .
+ 1069  cd
+ 1070  sudo su postgres psql
+ 1071  psql
+ 1072  sudo apt-get --purge remove postgresql
+ 1073  dpkg -l | grep postgres
+ 1074  sudo apt-get --purge remove postgresql-client-11 postgresql-client-common
+ 1075  dpkg -l | grep postgres
+ 1076  sudo apt-get --purge remove pgdg-keyring
+ 1077  psql
+ 1078  sudo rm -rf /var/lib/postgresql/
+ 1079  cd Downloads/
+ 1080  ls
+ 1081  tar xf postgresql-9.5.14.tar 
+ 1082  cd postgresql-9.5.14/
+ 1083  ls
+ 1084  ./configure 
+ 1085  ls /etc/local/
+ 1086  make
+ 1087  make install 
+ 1088  sudo make install 
+ 1089  ./conigure
+ 1090  ./configure
+ 1091  ./configure --prefix=/usr/local/pgsql
+ 1092  sudo make
+ 1093  sudo make install
+ 1094  ls /usr/local/pgsql/
+ 1095  ls /usr/local/pgsql/lib/
+ 1096  ls
+ 1097  vi README 
+ 1098  vi config.log 
+ 1099  cd doc/
+ 1100  ls
+ 1101  vi TODO 
+ 1102  cd ..
+ 1103  ls
+ 1104  vi Makefile 
+ 1105  ls
+ 1106  cd ..
+ 1107  sudo apt install postgresql
+ 1108  sudo apt-get update
+ 1109  ls
+ 1110  psql -v
+ 1111  psql --v
+ 1112  dpkg -l | grep postgres
+ 1113  sudo apt-get --purge remove postgresql postgresql-doc postgresql-common
+ 1114  sudo apt-get --purge remove postgresql postgresql-11 postgresql-client postgresql-client-11 postgresql-client-common postgresql-common
+ 1115  dpkg -l | grep postgres
+ 1116  sudo apt-get --purge remove pgdg-keyring
+ 1117  cd
+ 1118  psql
+ 1119  sudo apt install postgresql-client-common
+ 1120  psql
+ 1121  sudo apt-get install postgresql-client
+ 1122  psql
+ 1123  dpkg -l | grep postgres
+ 1124  dpkg -l | grep postgres
+ 1125  sudo apt-get update
+ 1126  lsb_release -a
+ 1127  cd Downloads/
+ 1128  ls
+ 1129  gunzip postgresql-9.5.15.tar.gz
+ 1130  ls
+ 1131  tar xf postgresql-9.5.15.tar
+ 1132  ls
+ 1133  cd
+ 1134  dpkg -l | grep postgres
+ 1135  gedit /etc/apt/sources.list.d/pgdg.list
+ 1136  sudo gedit /etc/apt/sources.list.d/pgdg.list
+ 1137  cd /etc/apt/sources.list.d/pgdg.list
+ 1138  cd /etc/apt/sources.list.d/
+ 1139  wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+ 1140  sudo apt-get update
+ 1141  apt-get install postgresql-9.5
+ 1142  sudo apt-get install postgresql-9.5
+ 1143  ss -lntu
+ 1144  psql --version
+ 1145  psql --host=127.0.0.1 --post=5432 --username=postgres --password
+ 1146  psql --help
+ 1147  psql --host=127.0.0.1 --port=5432 --username=postgres --password
+ 1148  sudo -u postgres psql postgres
+ 1149  psql --host=127.0.0.1 --port=5432 --username=postgres --password
+ 1150  cd
+ 1151  psql --version
+ 1152  curl -X POST http://localhost:8080/auth/realms/master/protocol/openid-connect/token -H 'cache-control: no-cache' -H 'content-type: application/x-www-form-urlencoded' -d 'client_id=admin-cli&username=utkarsha&password=utkarsha1234&grant_type=password'
+ 1153  curl -X POST https://staging.open-sunbird.org/api/org/v1/create -H "content-type: application/json" -H " X-Authenticated-User-Token: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJrSEp5elY2b1VSVEtEdTlxQ0NndUhnOU5lVFl5ZU5NdUtwX0VSVWF6V3U4In0.eyJqdGkiOiIxNThhMTA5Zi0wNjZiLTRlNTMtYjgzYy04NzIyMDMwMGQyYWUiLCJleHAiOjE1NDgyMjU4OTAsIm5iZiI6MCwiaWF0IjoxNTQ4MjI1ODMwLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvYXV0aC9yZWFsbXMvbWFzdGVyIiwiYXVkIjoiYWRtaW4tY2xpIiwic3ViIjoiYTMxMDBjMDgtOWIyNC00MThiLTgzOTYtMzEzNzAxMzJlZDAxIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYWRtaW4tY2xpIiwiYXV0aF90aW1lIjowLCJzZXNzaW9uX3N0YXRlIjoiNjlkODEzNzEtZDk4ZC00MDZiLTgxMzAtMzllOTYwZDM2YTNjIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6W10sInJlc291cmNlX2FjY2VzcyI6e30sInByZWZlcnJlZF91c2VybmFtZSI6InV0a2Fyc2hhIn0.Dp47WRC_WxJyDzO4lCr0Vu0p118BYtEjsC5mVEvF7nmb8j2-MEdvjZ-mbz7XDlJrXdoMtwfk2XjYWsHeOeTwphOoxPaZ3AuDwB6mZQXFBtV9zjwOtzMmgfPRmYR09KBy_ucMbQsh4mxKSJqkVdGKFwLmkhZBNvl2XFgyB47lxLWJpnbT2jypdZGYX7C83CRsYy_me7cPAB-uSV7VbgYGzvrxtYYlpMTe9iDmKkDe1bfcr18oqn3SiRP-sZLFMTxWY_fKFo0PvhHx81wqPpheIUnWV1nnr_NQSC5EoG4Hkpjayy5_3lSpjoJtTfFJeJi-ssu7dZ75GtucczBygyoNAQ" -H " Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJrSEp5elY2b1VSVEtEdTlxQ0NndUhnOU5lVFl5ZU5NdUtwX0VSVWF6V3U4In0.eyJqdGkiOiIxNThhMTA5Zi0wNjZiLTRlNTMtYjgzYy04NzIyMDMwMGQyYWUiLCJleHAiOjE1NDgyMjU4OTAsIm5iZiI6MCwiaWF0IjoxNTQ4MjI1ODMwLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvYXV0aC9yZWFsbXMvbWFzdGVyIiwiYXVkIjoiYWRtaW4tY2xpIiwic3ViIjoiYTMxMDBjMDgtOWIyNC00MThiLTgzOTYtMzEzNzAxMzJlZDAxIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYWRtaW4tY2xpIiwiYXV0aF90aW1lIjowLCJzZXNzaW9uX3N0YXRlIjoiNjlkODEzNzEtZDk4ZC00MDZiLTgxMzAtMzllOTYwZDM2YTNjIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6W10sInJlc291cmNlX2FjY2VzcyI6e30sInByZWZlcnJlZF91c2VybmFtZSI6InV0a2Fyc2hhIn0.Dp47WRC_WxJyDzO4lCr0Vu0p118BYtEjsC5mVEvF7nmb8j2-MEdvjZ-mbz7XDlJrXdoMtwfk2XjYWsHeOeTwphOoxPaZ3AuDwB6mZQXFBtV9zjwOtzMmgfPRmYR09KBy_ucMbQsh4mxKSJqkVdGKFwLmkhZBNvl2XFgyB47lxLWJpnbT2jypdZGYX7C83CRsYy_me7cPAB-uSV7VbgYGzvrxtYYlpMTe9iDmKkDe1bfcr18oqn3SiRP-sZLFMTxWY_fKFo0PvhHx81wqPpheIUnWV1nnr_NQSC5EoG4Hkpjayy5_3lSpjoJtTfFJeJi-ssu7dZ75GtucczBygyoNAQ"
+ 1154  curl -X POST https://staging.open-sunbird.org/api/org/v1/create -H "content-type: application/json" -H " Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJrSEp5elY2b1VSVEtEdTlxQ0NndUhnOU5lVFl5ZU5NdUtwX0VSVWF6V3U4In0.eyJqdGkiOiIxNThhMTA5Zi0wNjZiLTRlNTMtYjgzYy04NzIyMDMwMGQyYWUiLCJleHAiOjE1NDgyMjU4OTAsIm5iZiI6MCwiaWF0IjoxNTQ4MjI1ODMwLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvYXV0aC9yZWFsbXMvbWFzdGVyIiwiYXVkIjoiYWRtaW4tY2xpIiwic3ViIjoiYTMxMDBjMDgtOWIyNC00MThiLTgzOTYtMzEzNzAxMzJlZDAxIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYWRtaW4tY2xpIiwiYXV0aF90aW1lIjowLCJzZXNzaW9uX3N0YXRlIjoiNjlkODEzNzEtZDk4ZC00MDZiLTgxMzAtMzllOTYwZDM2YTNjIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6W10sInJlc291cmNlX2FjY2VzcyI6e30sInByZWZlcnJlZF91c2VybmFtZSI6InV0a2Fyc2hhIn0.Dp47WRC_WxJyDzO4lCr0Vu0p118BYtEjsC5mVEvF7nmb8j2-MEdvjZ-mbz7XDlJrXdoMtwfk2XjYWsHeOeTwphOoxPaZ3AuDwB6mZQXFBtV9zjwOtzMmgfPRmYR09KBy_ucMbQsh4mxKSJqkVdGKFwLmkhZBNvl2XFgyB47lxLWJpnbT2jypdZGYX7C83CRsYy_me7cPAB-uSV7VbgYGzvrxtYYlpMTe9iDmKkDe1bfcr18oqn3SiRP-sZLFMTxWY_fKFo0PvhHx81wqPpheIUnWV1nnr_NQSC5EoG4Hkpjayy5_3lSpjoJtTfFJeJi-ssu7dZ75GtucczBygyoNAQ"
+ 1155  curl -X POST https://staging.open-sunbird.org/api/org/v1/create -H "content-type: application/json"
+ 1156  curl POST -X https://staging.open-sunbird.org/api/org/v1/create -H "content-type: application/json"
+ 1157  curl -X POST https://staging.open-sunbird.org/api/org/v1/create -H "content-type: application/json"
+ 1158  curl 
+ 1159  curl --help
+ 1160  cd src/
+ 1161  ls
+ 1162  cd app/
+ 1163  ls
+ 1164  npm run build
+ 1165  npm build
+ 1166  cd Documents/
+ 1167  ls
+ 1168  cd workspace-StackrouteLabs/
+ 1169  ls
+ 1170  cd SunbirdEd-portal/
+ 1171  l
+ 1172  code .
+ 1173  subl .
+ 1174  cd ../../../
+ 1175  cd DOc
+ 1176  cd Documents/
+ 1177  ls
+ 1178  git clone git@github.com:ishawakankar/DevCon.git
+ 1179  ls
+ 1180  cd DevCon/
+ 1181  ls
+ 1182  subl .
+ 1183  npm i -g json-server
+ 1184  sudo npm i -g json-server
+ 1185  ls
+ 1186  npm i
+ 1187  npm run start
+ 1188  json-server --watch db.json 
+ 1189  ls
+ 1190  cd src/
+ 1191  ls
+ 1192  json-server --watch db.json 
+ 1193  npm run start
+ 1194  code .
+ 1195  subl .
+ 1196  cd ../../
+ 1197  ls
+ 1198  subl .
+ 1199  ls
+ 1200  cd ,,
+ 1201  cd ..
+ 1202  ls
+ 1203  node server.js 
+ 1204  code .
+ 1205  cd Doc
+ 1206  cd Documents/
+ 1207  ls
+ 1208  cd workspace
+ 1209  ;s
+ 1210  ls
+ 1211  npm create-react-app reactAppConfig
+ 1212  npm init react-app reactAppConfig
+ 1213  ls
+ 1214  npm init react-app reactAppConfig
+ 1215  ls
+ 1216  cd ../
+ 1217  ls
+ 1218  cd workspace
+ 1219  ls
+ 1220  npm init react-app my-app
+ 1221  ls
+ 1222  rm -rf package.json 
+ 1223  ls
+ 1224  mkdir createReactAppConfig && cd createReactAppConfig
+ 1225  npm init react-app my-app
+ 1226  ls
+ 1227  cd ..
+ 1228  ls
+ 1229  cd createReactAppConfig/
+ 1230  ls
+ 1231  npm run start
+ 1232  npm i
+ 1233  cd ../...
+ 1234  cd ../..
+ 1235  ls
+ 1236  cd stackroute/
+ 1237  ls
+ 1238  npm init react-app my-app
+ 1239  create-react-app -v
+ 1240  create-react-app --version
+ 1241  create-react-app help
+ 1242  npm install -g create-react-app
+ 1243  sudo npm install -g create-react-app
+ 1244  cd ..
+ 1245  cd stackroute/
+ 1246  cd ../workspace
+ 1247  ls
+ 1248  create-react-app createappconfig
+ 1249  cd createappconfig/
+ 1250  ls
+ 1251  cat package.json 
+ 1252  npm run start
+ 1253  cd
+ 1254  cd Documents/workspace-StackrouteLabs/SunbirdEd-portal/
+ 1255  ls
+ 1256  cd src/
+ 1257  ls
+ 1258  cd app/client/
+ 1259  ls
+ 1260  nodemon
+ 1261  cd
+ 1262  cd Documents/stackroute/
+ 1263  ls
+ 1264  cd ..
+ 1265  cd workspace
+ 1266  ls
+ 1267  cd createappconfig/
+ 1268  ls
+ 1269  subl .
+ 1270  ls
+ 1271  npm i react
+ 1272  npm install react react-dom --save
+ 1273  npm install react-router-dom --save
+ 1274  ls
+ 1275  npm run start
+ 1276  lsof -i tcp
+ 1277  lsof -i tcp:3000
+ 1278  kill -9 29341
+ 1279  npm run start
+ 1280  npm install @material-ui/core
+ 1281  ls
+ 1282  npm install react-google-login
+ 1283  npm i react-facebook-login --save
+ 1284  npm i --save '@material-ui/icons'
+ 1285  cd s
+ 1286  cd server/
+ 1287  ls
+ 1288  npm init
+ 1289  ls
+ 1290  npm i --save express fs body-parser
+ 1291  ls
+ 1292  npm i
+ 1293  touch server.js
+ 1294  ks
+ 1295  ls
+ 1296  cd Documents/workspace-StackrouteLabs/SunbirdEd-portal/src/app/
+ 1297  ls
+ 1298  cd ..
+ 1299  code .
+ 1300  cd Doc
+ 1301  cd Documents/
+ 1302  cd stackroute/
+ 1303  ls
+ 1304  cd ..
+ 1305  cd workspace
+ 1306  ls
+ 1307  cd createappconfig/
+ 1308  ls
+ 1309  subl .
+ 1310  npm run start
+ 1311  code .
+ 1312  ./build.sh
+ 1313  chmod 777 build.sh
+ 1314  ./build.sh
+ 1315  sudo apt-get install jq
+ 1316  jq --versiom
+ 1317  jq --version
+ 1318  cd Documents/workspace-StackrouteLabs/learning/angular6-basics/
+ 1319  ls
+ 1320  npm install -g @angular/cli
+ 1321  sudo npm install -g @angular/cli
+ 1322  ls
+ 1323  ng
+ 1324  ng new ng6-practice --style==scss --routing 
+ 1325  ng new ng6-practice --style=="scss" --routing 
+ 1326  ng new ng6-practice --style=scss --routing 
+ 1327  cd ng6-practice/
+ 1328  ls
+ 1329  subl .
+ 1330  ng serve help
+ 1331  ng serve --help
+ 1332  ng serve -o
+ 1333  npm i
+ 1334  cd ..
+ 1335  cd ../../
+ 1336  git clone https://github.com/project-sunbird/sunbird-telemetry-service.git
+ 1337  cd sunbird-telemetry-service/
+ 1338  ls
+ 1339  subl .
+ 1340  cd src/
+ 1341  ls
+ 1342  npm i
+ 1343  cd ..
+ 1344  ls
+ 1345  docker ps
+ 1346  docker start
+ 1347  docker run
+ 1348  docker images
+ 1349  ./build.sh 
+ 1350  ./metadata.sh 
+ 1351  ./build.sh
+ 1352  docker run sunbird/telemetry-service:1.13.0-bronze
+ 1353  npm install jq
+ 1354  curl localhost:9001
+ 1355  sudo curl localhost:9001
+ 1356  docker ps
+ 1357  docker inspect 3ce0ca1bb5cf
+ 1358  docker ps
+ 1359  docker run sunbird/telemetry-service
+ 1360  ls
+ 1361  ./metadata.sh 
+ 1362  docker run sunbird/telemetry-service:1.13.0
+ 1363  ./build.sh
+ 1364  docker run sunbird/telemetry-service:1.13.0-bronze
+ 1365  cd Documents/workspace-StackrouteLabs/sunbird-telemetry-service/
+ 1366  subl .
+ 1367  ls
+ 1368  history
+ 1369  docker run sunbird/telemetry-service:1.13.0-bronze
+ 1370  docker ps
+ 1371  docker rmi -f 3ce 2622
+ 1372  docker ps
+ 1373  docker rmi -f 3ce 
+ 1374  docker rmi 
+ 1375  docker rmi --hrlp
+ 1376  docker rmi --help
+ 1377  docker rmi 3ce
+ 1378  docker rmi 3ce0ca1bb5cf
+ 1379  docker stop
+ 1380  docker stop --help
+ 1381  docker stop 3ce0ca1bb5cf
+ 1382  docker stop 2622
+ 1383  docker ps
+ 1384  reset
+ 1385  curl -X POST   {{host}}/auth/realms/sunbird/protocol/openid-connect/token   -H 'Content-Type: application/x-www-form-urlencoded'   -H 'Postman-Token: 008d73bd-25cd-4958-8fa5-bb7bac41eab7'   -H 'cache-control: no-cache' \
+ 1386  ssh -i utkarsha sunbird@168.61.45.41
+ 1387  ssh -i utkarsha sunbird@168.61.145.41
+ 1388  sudo ssh -i utkarsha sunbird@168.61.145.41
+ 1389  sudo su
+ 1390  cd Documents/workspace-StackrouteLabs/
+ 1391  ls
+ 1392  git clone https://github.com/project-sunbird/sunbird-devops.git
+ 1393  cd
+ 1394  sudo su
+ 1395  ssh -i utkarsha sunbird
+ 1396  sudo su
+ 1397  ssh -i utkarsha sunbird@168.61.145.41
+ 1398  sudo ssh -i utkarsha sunbird@168.61.145.41
+ 1399  ssh -i utkarsha sunbird@40.122.46.160
+ 1400  sudo ssh -i utkarsha sunbird@40.122.46.160
+ 1401  sudo ssh -i utkarsha sunbird@168.61.145.41
+ 1402  npm -v
+ 1403  node -v
+ 1404  cordova -v
+ 1405  sudo npm install -g cordova
+ 1406  npm install -g cordova
+ 1407  sudo npm install -g cordova
+ 1408  cordova -v
+ 1409  sudo npm install -g ionic
+ 1410  ionic -v
+ 1411  npm uninstall ionic
+ 1412  sudo npm uninstall -g ionic
+ 1413  ionic -v
+ 1414  npm i -g ionic@3.20.0
+ 1415  sudo npm i -g ionic@3.20.0
+ 1416  iconic -v
+ 1417  ionic -v
+ 1418  cd Documents/workspace-StackrouteLabs/
+ 1419  ls
+ 1420  mkdir mobileSetup && cd mobileSetup
+ 1421  git clone https://github.com/project-sunbird/sunbird-mobile.git
+ 1422  cd sunbird-mobile/
+ 1423  ls
+ 1424  npm i
+ 1425  ionic cordova plugin add *https://github.com/project-sunbird/cordova-plugin-genie-sdk.git
+ 1426  ionic cordova plugin add https://github.com/project-sunbird/cordova-plugin-genie-sdk.git
+ 1427  ionic Cordova plugin add https://github.com/project-sunbird/cordova-plugin-sunbirdsplash.git
+ 1428  ionic cordova plugin add https://github.com/project-sunbird/cordova-plugin-sunbirdsplash.git
+ 1429  npm run build
+ 1430  run ionic cordova platform add android**
+ 1431  ls
+ 1432  ionic cordova platform add android
+ 1433  ionic cordova plugin add https://github.com/project-sunbird/cordova-plugin-geniecanvas.git
+ 1434  ionic cordova plugin add https://github.com/project-sunbird/cordova-plugin-qr-scanner.git
+ 1435  ionic cordova run android
+ 1436  ls
+ 1437  cd buildConfig/
+ 1438  ls
+ 1439  sudo vim sunbird.properties.sample 
+ 1440  sudo apt-get install vim
+ 1441  sudo vim sunbird.properties.sample 
+ 1442  pwd
+ 1443  find /home/kapoor/Documents/workspace-StackrouteLabs/mobileSetup/sunbird-mobile/buildConfig
+ 1444  find /home/kapoor/Documents/workspace-StackrouteLabs/mobileSetup/sunbird-mobile/buildConfig -iname gradle.properties
+ 1445  find /home/kapoor/Documents/workspace-StackrouteLabs/mobileSetup/sunbird-mobile/buildConfig -iname *gradle.properties*
+ 1446  cd ..
+ 1447  ls
+ 1448  cat config
+ 1449  cd ..
+ 1450  ls
+ 1451  git clone https://github.com/project-sunbird/genie-sdk-wrapper.gi*t
+ 1452  git clone https://github.com/project-sunbird/genie-sdk-wrapper.git
+ 1453  cd genie-sdk-wrapper/
+ 1454  ls
+ 1455  npm i
+ 1456  npm run build
+ 1457  pwd
+ 1458  npm pack /home/kapoor/Documents/workspace-StackrouteLabs/mobileSetup/genie-sdk-wrapper
+ 1459  cd ..
+ 1460  ls
+ 1461  cd sunbird-mobile/
+ 1462  ls
+ 1463  cd buildConfig/
+ 1464  ;s
+ 1465  ls
+ 1466  cd ..
+ 1467  ls
+ 1468  cd 
+ 1469  ls
+ 1470  cd Documents/
+ 1471  ls
+ 1472  cd
+ 1473  cd ..
+ 1474  cd
+ 1475  sudo mv ~/Documents/android-studio-ide-182.5264788-linux/ /usr/local/
+ 1476  cd /usr/local/android-studio-ide-182.5264788-linux
+ 1477  ls
+ 1478  cd android-studio/
+ 1479  ls
+ 1480  cd bin/
+ 1481  ;s
+ 1482  ls
+ 1483  ./studio.sh 
+ 1484  android-studio -v
+ 1485  androidstudio -v
+ 1486  android-studio 
+ 1487  sudo snap install android-studio
+ 1488  cd /usr/local/android-studio-ide-182.5264788-linux/
+ 1489  ls
+ 1490  cd android-studio/
+ 1491  ls
+ 1492  cd bin/
+ 1493  ls
+ 1494  cd ..
+ 1495  ls
+ 1496  cd genie-sdk-wrapper/
+ 1497  ls
+ 1498  cd
+ 1499  cd Documents/workspace-StackrouteLabs/mobileSetup/
+ 1500  ls
+ 1501  cd genie-sdk-wrapper/
+ 1502  ls
+ 1503  npm run build
+ 1504  ls
+ 1505  cd dist/
+ 1506  ls
+ 1507  npm pack .
+ 1508  ls
+ 1509  cd ../../
+ 1510  ls
+ 1511  cd sunbird-mobile/
+ 1512  subl .
+ 1513  ls
+ 1514  cd
+ 1515  npm -version
+ 1516  node -version
+ 1517  node --version
+ 1518  cordova --version
+ 1519  ionic --version
+ 1520  cd Documents/workspace-StackrouteLabs/mobileSetup/
+ 1521  cd sunbird-mobile/
+ 1522  ionic cordova run android
+ 1523  npm run android 
+ 1524  ls
+ 1525  grep -nr "dev.open-sunbird.org"
+ 1526  grep -inr "dev.open-sunbird.org"
+ 1527  ionic cordova run android
+ 1528  ionic -v
+ 1529  clear
+ 1530  ld
+ 1531  ls
+ 1532  adb devices
+ 1533  sudo apt install adb
+ 1534  clear
+ 1535  adb devices
+ 1536  clear
+ 1537  npm run build debug
+ 1538  clear
+ 1539  ld
+ 1540  ls
+ 1541  cd ..
+ 1542  ls
+ 1543  cd genie-sdk-wrapper/
+ 1544  ld
+ 1545  ls
+ 1546  cd ..
+ 1547  cd sunbird-mobile/
+ 1548  clear
+ 1549  ls
+ 1550  cd buildConfig/
+ 1551  ls
+ 1552  cd ..
+ 1553  ls
+ 1554  npm i
+ 1555  ls
+ 1556  cd node_modules/
+ 1557  ls
+ 1558  cd @angular
+ 1559  ls
+ 1560  cd ..
+ 1561  clear
+ 1562  npm run ../genie-sdk-wrapper/sunbird-1.0.0.tgz
+ 1563  git clone https://github.com/project-sunbird/genie-sdk-wrapper.git
+ 1564  cd genie-sdk-wrapper/
+ 1565  npm i
+ 1566  npm run build
+ 1567  ls
+ 1568  cd dist/
+ 1569  ls
+ 1570  npm pack .
+ 1571  cd ..
+ 1572  ls
+ 1573  cd dist/
+ 1574  ls
+ 1575  npm -v
+ 1576  node -v
+ 1577  cordova -v
+ 1578  ionic -v
+ 1579  ls
+ 1580  pwd
+ 1581  cd ..
+ 1582  ls
+ 1583  cd genie-sdk-wrapper/
+ 1584  ls
+ 1585  cd scripts/
+ 1586  ls
+ 1587  node postinstall.js 
+ 1588  cd ..
+ 1589  ls
+ 1590  vi package
+ 1591  vi package.json 
+ 1592  npm run build
+ 1593  cd dist/
+ 1594  ls
+ 1595  npm pack .
+ 1596  ls
+ 1597  cd ..
+ 1598  ls
+ 1599  cd SunbirdEd-mobile/
+ 1600  ls
+ 1601  cd ..
+ 1602  git clone git@github.com:Sunbird-Ed/SunbirdEd-mobile.git
+ 1603  git clone  https://github.com/project-sunbird/genie-sdk-wrapper.git
+ 1604  ls
+ 1605  cd genie-sdk-wrapper/
+ 1606  npm i
+ 1607  npm run build
+ 1608  cd dist/
+ 1609  npm back .
+ 1610  npm pack .
+ 1611  cd ../../
+ 1612  ls
+ 1613  cd SunbirdEd-mobile/
+ 1614  ls
+ 1615  rm -rf sunbird-1.0.0.tgz 
+ 1616  ls
+ 1617  cd ..
+ 1618  ls
+ 1619  cd SunbirdEd-mobile/
+ 1620  ls
+ 1621  cd buildConfig/
+ 1622  ls
+ 1623  cd ..
+ 1624  npm i
+ 1625  npm run ../genie-sdk-wrapper/dist/sunbird-1.0.0.tgz 
+ 1626  ls
+ 1627  vi package.json 
+ 1628  adb -v
+ 1629  cd ..
+ 1630  git clone https://github.com/Sunbird-Ed/SunbirdEd-mobile
+ 1631  cd SunbirdEd-mobile/
+ 1632  ls
+ 1633  cd buildConfig/
+ 1634  cd ..
+ 1635  subl .
+ 1636  ls
+ 1637  npm i
+ 1638  npm run ../genie-sdk-wrapper/dist/sunbird-1.0.0.tgz 
+ 1639  npm run /home/kapoor/Documents/workspace-StackrouteLabs/sunbird-mobile-setup/genie-sdk-wr
+ 1640  ionic serve
+ 1641  npm run sunbird-1.0.0.tgz 
+ 1642  ls
+ 1643  cd scripts/
+ 1644  ls
+ 1645  cd ..
+ 1646  ls
+ 1647  npm run ../genie-sdk-wrapper/dist/sunbird-1.0.0.tgz 
+ 1648  npm run ../genie-sdk-wrapper/dist/sunbird-1.0.0.tgz .
+ 1649  ls
+ 1650  vi  build.sh 
+ 1651  ./build
+ 1652  ./build.sh 
+ 1653  ls
+ 1654  npm install ../genie-sdk-wrapper/dist/sunbird-1.0.0.tgz 
+ 1655  npm run ../genie-sdk-wrapper/dist/sunbird-1.0.0.tgz 
+ 1656  ls
+ 1657  npm install ../genie-sdk-wrapper/dist/sunbird-1.0.0.tgz 
+ 1658  ionic cordova platform add android
+ 1659  ionic cordova plugin add *https://github.com/project-sunbird/cordova-plugin-genie-sdk.git
+ 1660  ionic cordova plugin add https://github.com/project-sunbird/cordova-plugin-genie-sdk.git
+ 1661  ionic Cordova plugin add https://github.com/project-sunbird/cordova-plugin-sunbirdsplash.git
+ 1662  ionic cordova plugin add https://github.com/project-sunbird/cordova-plugin-sunbirdsplash.git
+ 1663  ionic cordova plugin add https://github.com/project-sunbird/cordova-plugin-qr-scanner.git
+ 1664  ionic cordova platform run android
+ 1665  ionic cordova run android
+ 1666  adb devices
+ 1667  npm run ../genie-sdk-wrapper/dist/sunbird-1.0.0.tgz 
+ 1668  ionic cordova run android
+ 1669  ls
+ 1670  ./build.sh 
+ 1671  ionic cordova run android
+ 1672  npm install ionic-angular @ionic-native/file-transfer @ionic-native/file-opener @angular/http ionic-angular
+ 1673  npm install ionic-angular @ionic-native/file-transfer @ionic-native/file-opener @angular/http ionic-angular --save
+ 1674  ls
+ 1675  ./build.sh 
+ 1676  cat buildConfig/sunbird.properties 
+ 1677  git clone git@github.com:Sunbird-Ed/SunbirdEd-mobile.git
+ 1678  cd SunbirdEd-mobile/
+ 1679  lss
+ 1680  ls
+ 1681  npm i'
+ 1682  npm i
+ 1683  ls
+ 1684  subl .
+ 1685  ./build.sh 
+ 1686  git clone https://github.com/project-sunbird/genie-sdk-wrapper.git
+ 1687  ./build.sh 
+ 1688  ls
+ 1689  ./build.sh 
+ 1690  git clone git@github.com:Sunbird-Ed/SunbirdEd-mobile.git
+ 1691  cd SunbirdEd-mobile/
+ 1692  npm i
+ 1693  code .
+ 1694  cat build.sh 
+ 1695  ./build.sh 
+ 1696  ls
+ 1697  ./build.sh 
+ 1698  cd ..
+ 1699  ls
+ 1700  git clone git@github.com:Sunbird-Ed/SunbirdEd-mobile.git
+ 1701  cd SunbirdEd-mobile/
+ 1702  ls
+ 1703  cd buildConfig/
+ 1704  ls
+ 1705  cd ..
+ 1706  ./build.sh 
+ 1707  code .
+ 1708  ./build.sh 
+ 1709  ls
+ 1710  gulp --version
+ 1711  git clone git@github.com:Sunbird-Ed/SunbirdEd-mobile.git
+ 1712  subl .
+ 1713  cd SunbirdEd-mobile/
+ 1714  ls
+ 1715  ./build.sh 
+ 1716  cd src/app/
+ 1717  ls
+ 1718  cd client/
+ 1719  ls
+ 1720  nodemon
+ 1721  cd app/
+ 1722  ls
+ 1723  cd build/
+ 1724  ;s
+ 1725  ls
+ 1726  cd generated/source/
+ 1727  cd client/
+ 1728  nodemon
+ 1729  cd ../../../
+ 1730  ls
+ 1731  git branch 
+ 1732  git pull
+ 1733  cd ..
+ 1734  node server.js 
+ 1735  cd
+ 1736  cd Documents/workspace-StackrouteLabs/
+ 1737  cd mobile-build-setup/
+ 1738  ls
+ 1739  cd ..
+ 1740  ls
+ 1741  cd sunbird-mobile-setup/
+ 1742  ls
+ 1743  cd setup
+ 1744  cd setup3
+ 1745  ls
+ 1746  cd SunbirdEd-mobile/
+ 1747  ls
+ 1748  cd ..
+ 1749  cd
+ 1750  cd Documents/workspace-StackrouteLabs/sunbird-mobile-setup/setup3/
+ 1751  ls
+ 1752  git clone https://github.com/Sunbird-Ed/SunbirdEd-mobile
+ 1753  cd SunbirdEd-mobile/
+ 1754  ls
+ 1755  cd buildConfig/
+ 1756  ls
+ 1757  cd ..
+ 1758  git clone https://github.com/project-sunbird/genie-sdk-wrapper.git
+ 1759  cd genie-sdk-wrapper/
+ 1760  ls
+ 1761  rm package-lock.json 
+ 1762  npm i
+ 1763  npm run build
+ 1764  ls
+ 1765  cd dist/
+ 1766  ls
+ 1767  rm dependencies.json 
+ 1768  cd.
+ 1769  cd ..
+ 1770  npm pack dist
+ 1771  cd ..
+ 1772  ls
+ 1773  npm i
+ 1774  cd
+ 1775  sudo npm uninstall cordova -g
+ 1776  sudo npm i -g cordova@8.0.0
+ 1777  cordova -v
+ 1778  cd Documents/workspace-StackrouteLabs/
+ 1779  ls
+ 1780  cd sunbird-mobile-setup/
+ 1781  ls
+ 1782  cd setup3
+ 1783  git clone https://github.com/Sunbird-Ed/SunbirdEd-mobile
+ 1784  git clone https://github.com/project-sunbird/genie-sdk-wrapper.git
+ 1785  rm -rf genie-sdk-wrapper/
+ 1786  cd SunbirdEd-mobile/
+ 1787  ls
+ 1788  git clone https://github.com/project-sunbird/genie-sdk-wrapper.git
+ 1789  cd genie-sdk-wrapper/
+ 1790  ls
+ 1791  npm i
+ 1792  npm run build 
+ 1793  cd dist/
+ 1794  ls
+ 1795  rm dependencies.json 
+ 1796  cd ..
+ 1797  npm pack dist
+ 1798  cd ..
+ 1799  ls
+ 1800  npm i
+ 1801  code .
+ 1802  cd genie-sdk-wrapper/
+ 1803  ls
+ 1804  cd dist/
+ 1805  ls
+ 1806  cd ..
+ 1807  npm install genie-sdk-wrapper/*.tgz --save
+ 1808  ionic cordova platform add android
+ 1809  ionic cordova plugin add https://github.com/project-sunbird/cordova-plugin-genie-sdk.git
+ 1810  ionic Cordova plugin add https://github.com/project-sunbird/cordova-plugin-sunbirdsplash.git
+ 1811  ionic cordova plugin add https://github.com/project-sunbird/cordova-plugin-sunbirdsplash.git
+ 1812  ionic cordova plugin add https://github.com/project-sunbird/cordova-plugin-geniecanvas.git
+ 1813  ionic cordova plugin add https://github.com/project-sunbird/cordova-plugin-qr-scanner.git
+ 1814  adb devices
+ 1815  ionic cordova run android
+ 1816  cd
+ 1817  npm uninstall -g cordova 
+ 1818  sudo npm uninstall -g cordova 
+ 1819  cordova -v
+ 1820  cordova --version
+ 1821  cordova --version
+ 1822  npm i -g cordova@8.0.0
+ 1823  sudo npm i -g cordova@8.0.0
+ 1824  git clone git@github.com:Sunbird-Ed/SunbirdEd-mobile.git
+ 1825  ls
+ 1826  cd SunbirdEd-mobile/
+ 1827  cd buildConfig/
+ 1828  ls
+ 1829  cd ..
+ 1830  ls
+ 1831  sudo vim build.sh 
+ 1832  cat build.sh
+ 1833  ./build.sh 
+ 1834  cd Documents/workspace-StackrouteLabs/
+ 1835  ls
+ 1836  cd sunbird-
+ 1837  cd sunbird-mobile-setup/
+ 1838  lls
+ 1839  ks
+ 1840  ls
+ 1841  cd setup
+ 1842  cd setup3
+ 1843  ls
+ 1844  cd SU
+ 1845  cd SunbirdEd-mobile/
+ 1846  ls
+ 1847  ionic serve
+ 1848  cd
+ 1849  npm install npm -g
+ 1850  wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+ 1851  nvm -v
+ 1852  command nvm -v
+ 1853  sudo apt-get remove nodejs
+ 1854  node -v
+ 1855  nvm uninstall node
+ 1856  nvm deactivate
+ 1857  node -v
+ 1858  npm node -v
+ 1859  apt install nodejs
+ 1860  apt install nodejs -g
+ 1861  sudo apt install nodejs -g
+ 1862  nvm
+ 1863  nvm install -g node 8.11.0
+ 1864  nvm install  node 8.11.0
+ 1865  node
+ 1866  npm
+ 1867  npm uninstall node
+ 1868  node
+ 1869  npm install node
+ 1870  sudo chown -R $(whoami) ~/.npm
+ 1871  node -v
+ 1872  npm -v
+ 1873  nvm -v
+ 1874  nvm --version
+ 1875  command -v nvm
+ 1876  nvm install node
+ 1877  nvm use node
+ 1878  node -v
+ 1879  ionic -v
+ 1880  cordova -v
+ 1881  cd Documents/
+ 1882  cd mobile-installation/
+ 1883  ls
+ 1884  git clone clone https://github.com/Sunbird-Ed/SunbirdEd-mobile.git
+ 1885  git clone https://github.com/Sunbird-Ed/SunbirdEd-mobile.git
+ 1886  git remote -v
+ 1887  git fetch
+ 1888  cd SunbirdEd-mobile/
+ 1889  ls
+ 1890  git fetch
+ 1891  git remote -v
+ 1892  git checkout -b release-1.13.0 origin/release-1.13.0
+ 1893  git branch 
+ 1894  ./build.sh release-1.13.0
+ 1895  ls 
+ 1896  cd node_modules/
+ 1897  ls
+ 1898  grep lock
+ 1899  cd ..
+ 1900  sudo chown -R $(whoami) ~/.npm
+ 1901  git branch 
+ 1902  ./build.sh release-1.13.0
+ 1903  cd ..
+ 1904  mkdir setup2
+ 1905  cd setup2/
+ 1906  git clone https://github.com/Sunbird-Ed/SunbirdEd-mobile.git
+ 1907  cd SunbirdEd-mobile/
+ 1908  ls
+ 1909  cd buildConfig/
+ 1910  ls
+ 1911  cd ..
+ 1912  git fetch
+ 1913  git checkout -b release-1.13.0 origin/release-1.13.0
+ 1914  ./build.sh release-1.13.0
+ 1915  cd
+ 1916  sudo apt-get purge nodejs
+ 1917  node -v
+ 1918  sudo npm uninstall npm -g
+ 1919  npm -v
+ 1920  sudo npm uninstall npm -g
+ 1921  sudo apt-get autoremove
+ 1922  node -v
+ 1923  npm -v
+ 1924  nvm deactivate
+ 1925  node -v
+ 1926  npm -v
+ 1927  command -v nvm
+ 1928  nvm install node
+ 1929  node -v
+ 1930  npm -v
+ 1931  cd Documents/mobile-installation/
+ 1932  ls
+ 1933  cd setup2/
+ 1934  ls
+ 1935  git clone https://github.com/Sunbird-Ed/SunbirdEd-mobile.git
+ 1936  cd SunbirdEd-mobile/
+ 1937  ls
+ 1938  cd n
+ 1939  cd buildConfig/
+ 1940  ls
+ 1941  cd ..
+ 1942  git fetch
+ 1943  git checkout -b release-1.13.0 origin/release-1.13.0
+ 1944  ./build.sh release-1.13.0
+ 1945  sudo chmod 777 /media/part2
+ 1946  cd node_modules/
+ 1947  ls
+ 1948  pwd
+ 1949  chmod 777 /home/kapoor/Documents/mobile-installation/setup2/SunbirdEd-mobile/node_modules
+ 1950  cd ..
+ 1951  sudo npm install npm -g
+ 1952  clear
+ 1953  sudo npm install npm -g
+ 1954  cd ../../../
+ 1955  cd..
+ 1956  cd ..
+ 1957  sudo npm install npm -g
+ 1958  sudo npm install -g
+ 1959  cd
+ 1960  sudo chmod 777 /media/part2
+ 1961  chmod 777 /home/kapoor/Documents/mobile-installation/setup2/SunbirdEd-mobile/node_modules
+ 1962  git clone git@github.com:project-sunbird/genie-sdk-wrapper.git
+ 1963  cd genie-sdk-wrapper
+ 1964  git branch
+ 1965  git remote -v
+ 1966  git fetch origin 
+ 1967  git checkout -b release-1.13.0 origin/release-1.13.0
+ 1968  npm i
+ 1969  npm run build
+ 1970  npm pack /home/kapoor/Desktop/project-workspace/genie-sdk-wrapper/dist
+ 1971  readlink -f sunbird-1.0.0.tgz
+ 1972  git clone git@github.com:Sunbird-Ed/SunbirdEd-mobile.git
+ 1973  ls
+ 1974  cd SunbirdEd-mobile/
+ 1975  git branch
+ 1976  git remote -v
+ 1977  git fetch origin
+ 1978  git checkout -b release-1.13.0 origin/release-1.13.0
+ 1979  npm i
+ 1980  ionic cordova platform add android
+ 1981  npm i /home/kapoor/Desktop/project-workspace/genie-sdk-wrapper/sunbird-1.0.0.tgz
+ 1982  adb devices
+ 1983  ionic cordova run android
+ 1984  npm i -g ionic@latest
+ 1985  ionic cordova run android
+ 1986  sudo npm install npm -g
+ 1987  node -v
+ 1988  npm -v
+ 1989  npm i -g ionic@latest
+ 1990  ionic cordova run android
+ 1991  clear
+ 1992  sudo chmod -R o+rw /home/kapoor/Desktop/project-workspace/SunbirdEd-mobile/node_modules
+ 1993  ionic cordova run android
+ 1994  npm i
+ 1995  ionic cordova run android
+ 1996  cordova clean
+ 1997  ionic cordova platform rm android
+ 1998  ionic cordova platform add android
+ 1999  cordova plugin rm cordova-plugin-compat --force
+ 2000  cordova platform rm android
+ 2001  cordova platform add android@6.3.0
+ 2002  cordova clean
+ 2003  ionic cordova run android
+ 2004  cordova clean
+ 2005  ./build.sh release-1.13.0
+ 2006  clear
+ 2007  ionic cordova run android
+ 2008  history
+ 2009  ionic cordova platform rm android
+ 2010  ionic cordova platform add android
+ 2011  ionic cordova run android
+ 2012  history
+ 2013  history > his.txt
